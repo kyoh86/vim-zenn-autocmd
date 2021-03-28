@@ -1,0 +1,50 @@
+*zenn-autocmd.txt* zennのディレクトリに出入りした際にautocmdを実行します。
+
+==============================================================================
+目次                                                   *zenn-autocmd-contents*
+
+- はじめに                                         |zenn-autocmd-introduction|
+- 関数                                                |zenn-autocmd-functions|
+    - zenn_autocmd#enable()                            |zenn_autocmd#enable()|
+    - zenn_autocmd#do()                                    |zenn_autocmd#do()|
+- autocmd                                                       |zenn-autocmd|
+    - ZennEnter                                                    |ZennEnter|
+    - ZennLeave                                                    |ZennLeave|
+- LICENSE                                               |zenn-autocmd-license|
+
+==============================================================================
+はじめに                                           *zenn-autocmd-introduction*
+
+zennのディレクトリに出入りした際にautocmdを実行します。
+
+==============================================================================
+関数                                                  *zenn-autocmd-functions*
+
+zenn_autocmd#enable()                                  *zenn_autocmd#enable()*
+
+    このプラグインを有効化します。
+
+zenn_autocmd#do()                                          *zenn_autocmd#do()*
+
+    このプラグインの autocmd を実行します
+
+==============================================================================
+autocmd                                                         *zenn-autocmd*
+
+ZennEnter                                                          *ZennEnter*
+
+    Zenn用の記事を管理しているディレクトリに移動すると呼び出されます。
+
+ZennLeave                                                          *ZennLeave*
+
+    Zenn用の記事を管理しているディレクトリから移動すると呼び出されます。
+
+==============================================================================
+LICENSE                                                      *docbase-license*
+
+MIT License.
+
+Also see http://www.opensource.org/licenses/MIT for more information.
+
+vim:textwidth=78:tabstop=4:shiftwidth=4:expandtab:filetype=help:norl:
+
