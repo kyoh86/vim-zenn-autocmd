@@ -31,4 +31,9 @@ function! zenn_autocmd#enable()
     autocmd User ZennEnter echo ''
     autocmd User ZennLeave echo ''
   augroup end
+  command! ZennEnter :
+  augroup zenn_autocmd#augroup_load
+    autocmd!
+    autocmd User ZennEnter ++once ZennEnter
+  augroup end
 endfunction
